@@ -31,9 +31,9 @@ Este guia fornece instruções detalhadas para instalar, configurar e implantar 
 ### Configuração do Ambiente
 
 1. Clone o repositório:
-```bashcd 
+```bash
 git clone https://github.com/faxismart/faxismart.git
-cd faxismart\backend
+cd faxismart/backend
 ```
 
 2. Instale as dependências:
@@ -88,9 +88,8 @@ npm start
 
 3. Verifique se o servidor está rodando acessando:
 ```
-http://localhost:5000/api/health
+http://localhost:5000/api404
 ```
-
 ## Instalação do Frontend
 
 ### Configuração do Ambiente
@@ -156,7 +155,9 @@ npm run db:seed
 
 1. Para fazer backup do banco de dados:
 ```bash
+
 mongodump --uri="mongodb://localhost:27017/faxismart" --out=./backup
+
 ```
 
 2. Para restaurar o banco de dados:
@@ -180,7 +181,7 @@ cd faxismart/backend
 
 3. Instale as dependências:
 ```bash
-
+npm install --production
 ```
 
 4. Configure o arquivo `.env` para produção
