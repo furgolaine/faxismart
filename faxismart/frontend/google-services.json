@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "242568642214",
+    "project_id": "faxismart-ff13b",
+    "storage_bucket": "faxismart-ff13b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242568642214:android:7e22cec29304c27c8abe67",
+        "android_client_info": {
+          "package_name": "com.faxismart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDACvz_vIlrSg8JC8oQC52AB-DX-lAkips"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
