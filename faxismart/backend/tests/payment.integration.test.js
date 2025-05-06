@@ -84,7 +84,7 @@ describe('Sistema de Pagamentos - Testes de Integração', () => {
       expect(pricing.totalPrice).toBe(132); // 80 * 1.5 * 1.1 = 132
       
       // Verificação da distribuição
-      expect(distribution.platformFee).toBe(13.2); // 10% de 132
+      expect(distribution.platformFee).toBe(13.2); // 15% de 132
       expect(distribution.referralFee).toBe(0); // Sem referência
       expect(distribution.professionalAmount).toBe(118.8); // 132 - 13.2 = 118.8
     });
@@ -111,7 +111,7 @@ describe('Sistema de Pagamentos - Testes de Integração', () => {
       
       // Verificação da distribuição com referência
       expect(distribution.hasReferral).toBe(true);
-      expect(distribution.platformFee).toBe(11.88); // 10% de 118.8
+      expect(distribution.platformFee).toBe(11.88); // 15% de 118.8
       expect(distribution.referralFee).toBe(5.94); // 5% de 118.8
       expect(distribution.professionalAmount).toBe(100.98); // 118.8 - 11.88 - 5.94 = 100.98
     });

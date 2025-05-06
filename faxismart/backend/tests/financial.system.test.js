@@ -54,7 +54,7 @@ describe('Sistema Financeiro', () => {
       const distribution = financialSystem.calculatePaymentDistribution(150);
       
       expect(distribution.totalPrice).toBe(150);
-      expect(distribution.platformFee).toBe(15); // 10% de R$150 = R$15
+      expect(distribution.platformFee).toBe(15); // 15% de R$150 = R$15
       expect(distribution.referralFee).toBe(0); // Sem referência
       expect(distribution.professionalAmount).toBe(135); // R$150 - R$15 = R$135
     });
@@ -63,7 +63,7 @@ describe('Sistema Financeiro', () => {
       const distribution = financialSystem.calculatePaymentDistribution(150, true);
       
       expect(distribution.totalPrice).toBe(150);
-      expect(distribution.platformFee).toBe(15); // 10% de R$150 = R$15
+      expect(distribution.platformFee).toBe(15); // 15% de R$150 = R$15
       expect(distribution.referralFee).toBe(7.5); // 5% de R$150 = R$7,50
       expect(distribution.professionalAmount).toBe(127.5); // R$150 - R$15 - R$7,50 = R$127,50
     });
