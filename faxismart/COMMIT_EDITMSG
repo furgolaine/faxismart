@@ -1,0 +1,67 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Changes to be committed:
+#	new file:   .env
+#	new file:   App.js
+#	modified:   android/app/build.gradle
+#	new file:   android/app/google-services.json
+#	new file:   android/app/src/build.grale/8.13/checksums/checksums.lock
+#	new file:   android/app/src/build.grale/8.13/fileChanges/last-build.bin
+#	new file:   android/app/src/build.grale/8.13/fileHashes/fileHashes.bin
+#	new file:   android/app/src/build.grale/8.13/fileHashes/fileHashes.lock
+#	new file:   android/app/src/build.grale/8.13/gc.properties
+#	new file:   android/app/src/build.grale/buildOutputCleanup/buildOutputCleanup.lock
+#	new file:   android/app/src/build.grale/buildOutputCleanup/cache.properties
+#	new file:   android/app/src/build.grale/vcs-1/gc.properties
+#	deleted:    android/build.gradle
+#	new file:   components/PriceDetailsComponent.js
+#	new file:   components/ReferralSystemComponent.js
+#	new file:   cypress.config.js
+#	new file:   cypress/e2e/app.spec.js
+#	modified:   metro.config.js
+#	modified:   package-lock.json
+#	modified:   package.json
+#	new file:   pm2
+#	new file:   run-all-tests.js
+#	new file:   src/App.js
+#	new file:   src/components/PriceDetailsComponent.js
+#	new file:   src/components/ReferralSystemComponent.js
+#	new file:   src/navigation/index.js
+#	new file:   src/redux/reducers/appointmentReducer.js
+#	new file:   src/redux/reducers/authReducer.js
+#	new file:   src/redux/reducers/notificationReducer.js
+#	new file:   src/redux/reducers/paymentReducer.js
+#	new file:   src/redux/reducers/professionalReducer.js
+#	new file:   src/redux/reducers/referralReducer.js
+#	new file:   src/redux/reducers/userReducer.js
+#	new file:   src/redux/store/index.js
+#	new file:   src/screens/SplashScreen.js
+#	new file:   src/screens/auth/LoginScreen.js
+#	new file:   src/screens/auth/RegisterClientScreen.js
+#	new file:   src/screens/auth/RegisterProfessionalScreen.js
+#	new file:   src/screens/auth/RegisterScreen.js
+#	new file:   src/screens/client/AppointmentDetailsScreen.js
+#	new file:   src/screens/client/AppointmentsScreen.js
+#	new file:   src/screens/client/BookingScreen.js
+#	new file:   src/screens/client/EditProfileScreen.js
+#	new file:   src/screens/client/HomeScreen.js
+#	new file:   src/screens/client/PaymentScreen.js
+#	new file:   src/screens/client/ProfessionalDetailsScreen.js
+#	new file:   src/screens/client/ProfileScreen.js
+#	new file:   src/screens/professional/AppointmentDetailsScreen.js
+#	new file:   src/screens/professional/AppointmentsScreen.js
+#	new file:   src/screens/professional/EarningsScreen.js
+#	new file:   src/screens/professional/EditProfileScreen.js
+#	new file:   src/screens/professional/HomeScreen.js
+#	new file:   src/screens/professional/ProfileScreen.js
+#	new file:   src/screens/professional/ReferralsScreen.js
+#	new file:   src/screens/professional/RequestDetailsScreen.js
+#	new file:   src/services/api.js
+#	new file:   src/services/financialService.js
+#	new file:   src/services/referralService.js
+#	new file:   tests/financial-components.test.js
+#	modified:   tsconfig.json
+#
